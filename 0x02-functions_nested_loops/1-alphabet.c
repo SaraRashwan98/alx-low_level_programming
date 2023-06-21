@@ -12,8 +12,7 @@ void print_alphabet(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		if (c != 'e' && c != 'q')
-			_putchar(c);
+		_putchar(c);
 	}
 	_putchar('\n');
 }
